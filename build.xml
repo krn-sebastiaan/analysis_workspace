@@ -2,8 +2,8 @@
     <property environment="env"/>
 
     <property name="ignore_modules" value="analysis_workspace_test"/>
-    <property name="mojo_strict" value="false"/>
+    <property name="mmojo_strict" value="false"/>
     <property name="requires_jacoco_report" value="false"/>
 
-    <import file="${env.KRN_CORE_LOCATION}/modules/mojo_lifecycle/resources/base/data/blueprint.xml"/>
+    <import file="${env.KRN_CORE_LOCATION}/modules/mmojo_lifecycle/resources/base/data/blueprint.xml"/>
 </project>
