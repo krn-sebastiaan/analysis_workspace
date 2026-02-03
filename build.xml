@@ -1,9 +1,6 @@
 <project>
     <property environment="env"/>
 
-    <property name="mojo_source_path" value="${env.GITHUB_WORKSPACE}/../"/>
-    <property name="mojo_installer_dir" value="${env.GITHUB_WORKSPACE}"/>
-
     <property name="ignore_modules" value="analysis_workspace_test"/>
     <property name="mojo_strict" value="false"/>
     <property name="requires_jacoco_report" value="false"/>
